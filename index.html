@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="app.js"></script>
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="conteudo">
+            <img class="logo" src="assets/Frame 6.svg" alt="logo Alura">
+            <div class="conteudo__esquerda">
+                <textarea class="texto" rows="5" cols="10" placeholder="Digite seu texto" wrap="hard"></textarea>
+                <img src="assets/Frame 1.svg" alt="apenas letras minúsculas e sem acento" class="conteudo__aviso">
+                <div class="container__botoes">
+                    <button onclick="criptografar()" class="conteudo__botoes" id="criptografar">criptografar</button>
+                    <button onclick="descriptografar()" class="conteudo__botoes" id="descriptografar">descriptografar</button>
+                </div>
+            </div>    
+            <div class="conteudo__direita">
+                <div class="conteudo__direita__dentro" id="1">
+                    <img class="conteudo__direita__imagem" src="assets/High quality products 1 1.svg" alt="desenho de um boneco com uma lupa olhando para um diamante">
+                    <p class="conteudo__direita__texto1" >Nenhuma mensagem encontrada</p>
+                    <p class="conteudo__direita__texto2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <p id="texto__crip" class="scroll" ></p>
+                <div class="conteudo__direita2">
+                    <button onclick="copiar()" class="copiar" id="2">copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>Desenvolvido por Luana Ruver durante o curso em Alura.</footer>
+    
+</body>
+</html>
